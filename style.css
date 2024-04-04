@@ -1,0 +1,120 @@
+#nav{
+    background-color: rgb(65, 138, 65);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#nav2{
+    display: flex;
+    justify-content: space-around;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 190px;
+}
+#big{
+    display: flex;
+    justify-content: space-around;   
+}
+#small{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 243, 245);
+}
+#button{
+    background-color: rgb(65, 138, 65);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.middle{
+    text-align: center;
+    background-image: url(images/back.png);
+    background-repeat:no-repeat;
+
+}
+#zone{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 243, 245);
+}
+.flower{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+#button1{
+    background-color: rgb(65, 138, 65);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    width: 185px;
+
+}
+.center{
+    text-align: center;
+}
+
+
+@media  screen  and (max-width :768px) {
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: large;
+        text-align: center;
+        
+    }
+    footer{
+        
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .flower{
+        flex-wrap: wrap;
+    }
+    #small{
+        flex-wrap: wrap;
+        background-color: rgb(247, 243, 245);
+    }
+    #big{
+        flex-wrap: wrap;  
+    }
+    #zone{
+        flex-wrap: wrap;
+        background-color: rgb(247, 243, 245);
+    }
+
+#zone{
+    flex-wrap: wrap;
+    background-color: rgb(247, 243, 245);
+}
+   .image{
+    width:"30%";
+    height:"30%";
+   } 
+   .sit{
+    flex-wrap: wrap;
+    margin: o;
+   }
+   #nav2{
+    flex-wrap: wrap;
+    margin-right: 50%;
+    margin-left: 0; 
+}
+.mit{
+    width:"30%"
+}
+.whole{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+}
